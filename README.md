@@ -1,5 +1,6 @@
 # Frontend-Interview-Preparation-Kit
-This repo contains complete guidance for Frontend Interview Preparation.
+>[!NOTE]
+>This repo contains complete guidance for Frontend Interview Preparation.
 
 Important HTML Topics
 - HTML 5 features
@@ -10,6 +11,7 @@ Important HTML Topics
 - Media tags: image, audio, video
 - SEO using HTML tags
 - IFrames
+---
 
 Important CSS Topics
 - Box Model
@@ -24,6 +26,7 @@ Important CSS Topics
 - Animations and Transitions
 - z-index
 - Accessibility
+---
 
 Important Javascript Topics
 - Working of JS
