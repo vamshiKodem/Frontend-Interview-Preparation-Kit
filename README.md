@@ -79,9 +79,10 @@ Remember practice makes a man perfect. So, here we will focus on practicing conc
 
 Practice on the following links step by step:
 
-Leetcode 30 days of JS
-Start with Easy questions, then Medium and Hard: GreatFrontend JS Problems: Solutions
-BigFrontEnd Javascript Problems
+<a href='https://leetcode.com/studyplan/30-days-of-javascript/'>Leetcode 30 days of JS</a>
+- Start with Easy questions, then Medium and Hard: GreatFrontend JS Problems: Solutions
+- BigFrontEnd Javascript Problems
+  
 Above mentioned resources are more than enough for practicing Javascript questions. Now comes the turn of practicing by making some small applications in HTML, CSS, JS. Such type of questions are generally asked in Machine Coding rounds.
 
 Adding below a list of small applications that you can practice:
