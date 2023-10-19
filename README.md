@@ -50,7 +50,7 @@
   - IIFE
 - this keyword
 - Call, Apply, Bind
-- Closure and it's uses
+- Closure and its uses
 - Callbacks, Callback Hell
 - Promises, promise chaining
 - Async/Await
@@ -79,9 +79,9 @@ Remember practice makes a man perfect. So, here we will focus on practicing conc
 
 Practice on the following links step by step:
 
-<a href='https://leetcode.com/studyplan/30-days-of-javascript/'>Leetcode 30 days of JS</a>
-- Start with Easy questions, then Medium and Hard: GreatFrontend JS Problems: Solutions
-- BigFrontEnd Javascript Problems
+<p><a href='https://leetcode.com/studyplan/30-days-of-javascript/'>Leetcode 30 days of JS</a></p>
+<p>Start with Easy questions, then Medium and Hard: GreatFrontend JS Problems: Solutions</p>
+<p><a href='https://bigfrontend.dev/'>BigFrontEnd Javascript Problems</a></p>
   
 Above mentioned resources are more than enough for practicing Javascript questions. Now comes the turn of practicing by making some small applications in HTML, CSS, JS. Such type of questions are generally asked in Machine Coding rounds.
 
