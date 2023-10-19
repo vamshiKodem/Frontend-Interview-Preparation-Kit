@@ -106,5 +106,19 @@ Adding below a list of small applications that you can practice:
 - Create Analog Clock
 - Implement Day Calendar
 - Create a Todo List using Drag and Drop
+___
+
+# Frontend System Design!
+
+Listing some best resources for studying System Design in Frontend, go on and binge-watch them:
+
+- <p><a href="https://www.youtube.com/watch?v=5vyKhm2NTfw&list=PLI9W87-Dqn7j_x6QtR6sUjycJR7nQLBqT">Front-End Engineer YT Channel</a></p> 
+- <p><a href='https://www.youtube.com/watch?v=sV_4pOGosnU&list=PL4CFloQ4GGWICE0Tz6iXKfN3XWkXRlboU'>Chirag Goel YT Channel</a></p>
+- <p><a href='https://bigfrontend.dev/design'> BigFrontend Frontend Design Questions</a></p>
+- <p><a href="https://www.greatfrontend.com/system-design">GreatFrontend Design Questions</a></p> 
+
+The above resources will help you in understanding the way you can deal with System Design rounds, although these solutions are not the only ones, you can come up with your own ideas as well. Also, different interviewers have different expectations when they ask you to provide a design for any system, no solution is the best/concrete solution in that case, however you can follow this pattern for framing your answers:
+
+GreatFrontend System Design Framework
 
 
