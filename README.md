@@ -64,7 +64,7 @@
 - Memoisation
 - Generator Functions
 - Working on JS Engine
-- Event Loop, Mictrotasks, Macrotasks
+- Event Loop, Mictrotasks,
 - Events: DOMContentLoaded, load, beforeunload, unload
 - async/defer
 - Polyfills (Mostly asked polyfills: Promise, Promise.all, Promise.any, Promise.race, Promise.allSettled, call, apply, bind, map, reduce, filter, forEach, flat, fetch API)
@@ -120,5 +120,27 @@ Listing some best resources for studying System Design in Frontend, go on and bi
 The above resources will help you in understanding the way you can deal with System Design rounds, although these solutions are not the only ones, you can come up with your own ideas as well. Also, different interviewers have different expectations when they ask you to provide a design for any system, no solution is the best/concrete solution in that case, however you can follow this pattern for framing your answers:
 
 GreatFrontend System Design Framework
+
+---
+
+# Important React 
+
+- Hooks
+  - useState()
+  - useEffect()
+  - useCallback()
+  - useMemo()
+  - useRef()
+  - useReducer()
+  - useContext()
+  - useId()
+  - useLayoutEffect()
+- How does react work under the hood
+  - React reconciliation
+  - diffing algorithem
+  - JSX (What happens to jsx when we run react)
+  - React keys (Why we should not use index as key for the list where we can modify list)
+    
+
 
 
