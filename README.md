@@ -2,6 +2,18 @@
 >[!NOTE]
 >This repo contains complete guidance for Frontend Interview Preparation.
 
+
+# Clean Code Hack
+- Create a meaningful name
+- Don’t use words that don’t give much info about variables like date, or variable.
+- Don’t use magic numbers assign that to a meaningful name.
+- Function name should be small below 20 chars
+- For function use a few arguments max of 2. If required use the object
+- Don’t repeat your self
+- Don’t leave commented code if not required delete it. 
+___
+
+
 # Important HTML Topics
 - HTML 5 features
 - HTML Document Structure
