@@ -108,6 +108,22 @@ Adding below a list of small applications that you can practice:
 - Create a Todo List using Drag and Drop
 ___
 
+# Web Fundamentals!
+
+- Web Vitals
+- Web Performance and Optimisations
+- Storing Data in browser
+- Network requests
+- DOM
+- Security
+- Design Patterns
+- React Design Patterns
+- Rendering Patterns
+- Performance Patterns
+- Other Important Topics
+___
+
+
 # Frontend System Design!
 
 Listing some best resources for studying System Design in Frontend, go on and binge-watch them:
