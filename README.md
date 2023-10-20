@@ -139,7 +139,11 @@ GreatFrontend System Design Framework
   - React reconciliation
   - diffing algorithem
   - JSX (What happens to jsx when we run react)
-  - React keys (Why we should not use index as key for the list where we can modify list)
+  - React keys (Why we should not use the index as key for the list where we can modify list)
+  - Virtual dom
+ - React Lifecycle methods
+ - State management
+ - React with typescript
     
 
 
