@@ -112,12 +112,18 @@ ___
 
 - Web Vitals
 - Web Performance and Optimisations
-- Storing Data in browser
+- Storing Data in the browser
 - Network requests
 - DOM
 - Security
 - Design Patterns
 - React Design Patterns
+  - Con/Pres Pattern
+  - HOC Pattern
+  - Render Props Pattern
+  - Hooks Pattern
+  - Provider Pattern
+  - Compound Pattern   
 - Rendering Patterns
 - Performance Patterns
 - Other Important Topics
