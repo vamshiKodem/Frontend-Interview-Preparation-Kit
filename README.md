@@ -75,6 +75,7 @@ ___
   - Event Delegation
 - Prototype and Prototypal Inheritance
 - Memoisation
+- Map and Set
 - Generator Functions
 - Working on JS Engine
 - Event Loop, Mictrotasks,
