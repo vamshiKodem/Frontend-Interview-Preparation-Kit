@@ -19,6 +19,7 @@ ___
 - HTML Document Structure
 - Forms (Input types, attributes, validations)
 - Semantic tags and uses
+- Web accessibility
 - Metatag
 - Media tags: image, audio, video
 - SEO using HTML tags
