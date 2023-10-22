@@ -170,7 +170,7 @@ GreatFrontend System Design Framework
   - useReducer()
   - useContext()
   - useId()
-  - useLayoutEffect()
+  - useLayoutEffect() (useLayoutEffect can hurt performance. Prefer useEffect when possible.)
 - How does react work under the hood
   - React reconciliation
   - diffing algorithem
