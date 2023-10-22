@@ -183,7 +183,7 @@ GreatFrontend System Design Framework
   
   ___  
 
-# Important React Native
+# Important React Native Topics
 - Hooks
 - React Native threads (Main thread, javascript thread)
 - Bridge
