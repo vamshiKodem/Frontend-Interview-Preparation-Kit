@@ -173,17 +173,17 @@ GreatFrontend System Design Framework
   - useLayoutEffect() (useLayoutEffect can hurt performance. Prefer useEffect when possible.)
 - How does react work under the hood
   - React reconciliation
-  - diffing algorithem
+  - diffing algorithm
   - JSX (What happens to jsx when we run react)
   - React keys (Why we should not use the index as a key for the list where we can modify the list)
   - Virtual dom
- - React Lifecycle methods
+ - React Lifecycle methods (Class and Functional)
  - State management (Context, Redux)
  - React with typescript
  - props and props drilling
  - Difference between class components vs functional components
  - Higher order component in react
- - Webpack (about webpack and its uses)
+ - Webpack (about Webpack and its uses)
  - 
   ___  
 
@@ -192,4 +192,5 @@ GreatFrontend System Design Framework
 - React Native threads (Main thread, javascript thread)
 - Bridge
 - Performance issue (The real cause behind React Native performance issues is that each thread (i.e Native and JS thread) is blazingly fast. The performance bottleneck in the React Native app occurs when you’re passing the components from one thread to another unnecessarily or more than required)
-- 
+- Build process
+- How React Native work under the hood
