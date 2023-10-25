@@ -181,11 +181,15 @@ GreatFrontend System Design Framework
  - State management (Context, Redux)
  - React with typescript
  - props and props drilling
+ - Difference between class components vs functional components
+ - Higher order component in react
+ - Webpack (about webpack and its uses)
+ - 
   ___  
 
 # Important React Native Topics
 - Hooks
 - React Native threads (Main thread, javascript thread)
 - Bridge
-- Performance issue (The real cause behind React Native performance issues is that each thread (i.e Native and JS thread) is blazingly fast. The performance bottleneck in React Native app occurs when you’re passing the components from one thread to another unnecessarily or more than required)
+- Performance issue (The real cause behind React Native performance issues is that each thread (i.e Native and JS thread) is blazingly fast. The performance bottleneck in the React Native app occurs when you’re passing the components from one thread to another unnecessarily or more than required)
 - 
