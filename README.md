@@ -9,7 +9,7 @@
 - Don’t use magic numbers assign that to a meaningful name.
 - Function name should be small below 20 chars
 - For function use a few arguments max of 2. If required use the object
-- Don’t repeat your self
+- Don’t repeat yourself
 - Don’t leave commented code if not required delete it. 
 ___
 
@@ -124,7 +124,6 @@ ___
 
 # Web Fundamentals!
 
-- Web Vitals
 - Web Performance and Optimisations
 - Storing Data in the browser
 - Network requests
@@ -139,7 +138,6 @@ ___
   - Provider Pattern
   - Compound Pattern   
 - Rendering Patterns
-- Performance Patterns
 - Other Important Topics
 ___
 
