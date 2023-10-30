@@ -182,8 +182,12 @@ GreatFrontend System Design Framework
  - Difference between class components vs functional components
  - Higher order component in react
  - Webpack (about Webpack and its uses)
- - 
-  ___  
+ - React Design Patterns
+   - Single Responsible principle
+   - Features Components (Like SignIn Form)
+   - Compound Components
+   - Pattern of Extracting thinks into hooks
+___  
 
 # Important React Native Topics
 - Hooks
