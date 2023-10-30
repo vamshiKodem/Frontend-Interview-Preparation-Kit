@@ -129,15 +129,7 @@ ___
 - Network requests
 - DOM
 - Security
-- Design Patterns
-- React Design Patterns
-  - Con/Pres Pattern
-  - HOC Pattern
-  - Render Props Pattern
-  - Hooks Pattern
-  - Provider Pattern
-  - Compound Pattern   
-- Rendering Patterns
+- Design Patterns 
 - Other Important Topics
 ___
 
@@ -183,10 +175,15 @@ GreatFrontend System Design Framework
  - Higher order component in react
  - Webpack (about Webpack and its uses)
  - React Design Patterns (<a href="https://blog.logrocket.com/react-design-patterns">Useful link</a>)
-   - Single Responsible principle
-   - Features Components (Like SignIn Form)
-   - Compound Components
-   - Pattern of Extracting thinks into hooks
+  - Single Responsible principle
+  - Features Components (Like SignIn Form)
+  - Compound Components pattern
+  - Pattern of Extracting things into hooks
+  - Con/Pres Pattern
+  - HOC Pattern
+  - Render Props Pattern
+  - Hooks Pattern
+  - Provider Pattern  
 ___  
 
 # Important React Native Topics
