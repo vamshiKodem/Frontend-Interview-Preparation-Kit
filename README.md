@@ -182,7 +182,7 @@ GreatFrontend System Design Framework
  - Difference between class components vs functional components
  - Higher order component in react
  - Webpack (about Webpack and its uses)
- - React Design Patterns
+ - React Design Patterns (<a href="https://blog.logrocket.com/react-design-patterns">Useful link</a>)
    - Single Responsible principle
    - Features Components (Like SignIn Form)
    - Compound Components
