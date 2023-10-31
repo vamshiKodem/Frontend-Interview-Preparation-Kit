@@ -176,23 +176,12 @@ GreatFrontend System Design Framework
  - Higher order component in react
  - Webpack (about Webpack and its uses)
  - React Design Patterns (<a href="https://blog.logrocket.com/react-design-patterns">Useful link</a>,  <a href="https://javascriptpatterns.vercel.app/patterns">Js and React</a>) 
-  - Container/Presentational Pattern
-  - Higher-Order Components
-  - Render Props Pattern
-  - Hooks Pattern
-  - Provider Pattern
-  - Compound Pattern
-
-  -  
-  - Single Responsible principle
-  - Features Components (Like SignIn Form)
-  - Compound Components pattern
-  - Pattern of Extracting things into hooks (moving the logic to separate hooks)
-  - Con/Pres Pattern
-  - HOC Pattern
-  - Render Props Pattern (It is the pattern where we pass the UI component function as props)
-  - Hooks Pattern
-  - Provider Pattern (Context-based)
+  - Container/Presentational Pattern (We can use the Container/Presentational pattern to separate the logic of a component from the view)
+  - Higher-Order Components (Pass reusable logic down as props to components throughout your application)
+  - Render Props Pattern (Pass JSX elements to components through props)
+  - Hooks Pattern (Use functions to reuse stateful logic among multiple components throughout the app)
+  - Provider Pattern (Make data available to multiple child components)
+  - Compound Pattern (Create multiple components that work together to perform a single task)
 ___  
 
 # Important React Native Topics
