@@ -178,12 +178,12 @@ GreatFrontend System Design Framework
   - Single Responsible principle
   - Features Components (Like SignIn Form)
   - Compound Components pattern
-  - Pattern of Extracting things into hooks
+  - Pattern of Extracting things into hooks (moving the logic to separate hooks)
   - Con/Pres Pattern
   - HOC Pattern
-  - Render Props Pattern
+  - Render Props Pattern (It is the pattern where we pass the UI component function as props)
   - Hooks Pattern
-  - Provider Pattern  
+  - Provider Pattern (Context-based)
 ___  
 
 # Important React Native Topics
