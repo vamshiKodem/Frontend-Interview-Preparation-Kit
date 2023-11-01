@@ -168,20 +168,24 @@ GreatFrontend System Design Framework
   - JSX (What happens to jsx when we run react)
   - React keys (Why we should not use the index as a key for the list where we can modify the list)
   - Virtual dom
- - React Lifecycle methods (Class and Functional)
- - State management (Context, Redux)
- - React with typescript
- - props and props drilling
- - Difference between class components vs functional components
- - Higher order component in react
- - Webpack (about Webpack and its uses)
- - React Design Patterns (<a href="https://blog.logrocket.com/react-design-patterns">Useful link</a>,  <a href="https://javascriptpatterns.vercel.app/patterns">Js and React</a>) 
+- React Lifecycle methods (Class and Functional)
+- State management (Context, Redux)
+- React with typescript
+- props and props drilling
+- Difference between class components vs functional components
+- Webpack (about Webpack and its uses)
+- React Design Patterns (<a href="https://blog.logrocket.com/react-design-patterns">Useful link</a>,  <a href="https://javascriptpatterns.vercel.app/patterns">Js and React</a>)
   - Container/Presentational Pattern (We can use the Container/Presentational pattern to separate the logic of a component from the view)
   - Higher-Order Components (Pass reusable logic down as props to components throughout your application)
   - Render Props Pattern (Pass JSX elements to components through props)
   - Hooks Pattern (Use functions to reuse stateful logic among multiple components throughout the app)
   - Provider Pattern (Make data available to multiple child components)
   - Compound Pattern (Create multiple components that work together to perform a single task)
+- Redux
+  - Single source of truth: The global state of our application is always put away in an object tree inside one store.
+  - The state is read-only: The only way to change the state of our application is by emitting an action, an object explaining what has happened.
+  - Changes are made with pure functions: This principle means that in order to define how the state tree is being transformed by the actions, we have to write pure reducers.
+
 ___  
 
 # Important React Native Topics
