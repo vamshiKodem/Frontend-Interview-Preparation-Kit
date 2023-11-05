@@ -66,6 +66,10 @@ ___
 - Closure and its uses
 - Callbacks, Callback Hell
 - Promises, promise chaining
+  - Promise.all()
+  - Promise.allSettled()
+  - Promise.any()
+  - Promise.race() 
 - Async/Await
 - Currying
 - Debouncing and Throttling
