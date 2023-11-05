@@ -189,7 +189,10 @@ GreatFrontend System Design Framework
   - Single source of truth: The global state of our application is always put away in an object tree inside one store.
   - The state is read-only: The only way to change the state of our application is by emitting an action, an object explaining what has happened.
   - Changes are made with pure functions: This principle means that in order to define how the state tree is being transformed by the actions, we have to write pure reducers.
-
+- Architecture
+  - Monolithic
+  - Micro frontend
+  - Monorepo 
 ___  
 
 # Important React Native Topics
