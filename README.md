@@ -130,6 +130,13 @@ ___
 # Web Fundamentals!
 
 - Web Performance and Optimisations
+- Web Vitals
+  - Largest contentful paint
+    - Oversize files
+    - Bad hosting
+    - Uncompressed images 
+  - First input delay
+  - cumulative layout shift 
 - Storing Data in the browser
 - Network requests
 - DOM
