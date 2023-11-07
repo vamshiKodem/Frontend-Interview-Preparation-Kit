@@ -10,7 +10,8 @@
 - Function name should be small below 20 chars
 - For function use a few arguments max of 2. If required use the object
 - Don’t repeat yourself
-- Don’t leave commented code if not required delete it. 
+- Don’t leave commented code if not required delete it.
+- If using typescript don't compare stings use Types or Enums
 ___
 
 
