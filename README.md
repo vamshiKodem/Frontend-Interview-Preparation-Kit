@@ -123,7 +123,7 @@ Adding below a list of small applications that you can practice:
 - Food Ordering App having Search, Sort, Filter, Add to Cart Functionality
 - Build a calculator (add/subtract... then multiply/divide... then log/pow... etc)
 - Create a progress bar having start/restart, pause, and stop functionality
-- Create Analog Clock
+- Create an Analog Clock
 - Implement Day Calendar
 - Create a Todo List using Drag and Drop
 ___
@@ -131,6 +131,9 @@ ___
 # Web Fundamentals!
 
 - Web Performance and Optimisations
+  - Lazy Loading
+  - Code splitting
+  - Caching the services
 - Web Vitals
   - Largest contentful paint
     - Oversize files
