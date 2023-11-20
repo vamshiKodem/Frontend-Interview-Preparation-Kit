@@ -142,6 +142,11 @@ ___
 - Network requests
 - DOM
 - Security
+  - SSL Pinning
+  - Security Vunarablitites
+    - Cross-site scripting (XSS)
+    - Cross-site Request Forgery (CSRF)
+    - SQL Injection (SQL I)  
 - Design Patterns 
 - Other Important Topics
 ___
