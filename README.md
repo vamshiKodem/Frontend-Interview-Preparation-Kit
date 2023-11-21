@@ -142,6 +142,9 @@ ___
   - First input delay
   - cumulative layout shift 
 - Storing Data in the browser
+  - Local storage
+  - Session storage
+  - Cookie 
 - Network requests
 - DOM
 - Security
