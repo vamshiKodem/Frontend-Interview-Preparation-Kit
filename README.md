@@ -193,6 +193,7 @@ GreatFrontend System Design Framework
   - React keys (Why we should not use the index as a key for the list where we can modify the list)
   - Virtual dom
 - React Lifecycle methods (Class and Functional)
+- How React update the async updates
 - State management (Context, Redux)
 - React with typescript
 - props and props drilling
