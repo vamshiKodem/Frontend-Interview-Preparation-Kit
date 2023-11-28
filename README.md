@@ -47,7 +47,18 @@ ___
 - Working of JS
   - Execution Context
   - Callstack
-- Data types (Especially Arrays, Objects, Strings)
+- Data types 
+ - Primitive type
+  - String
+  - Boolean
+  - Number
+  - Symbol
+  - Null
+  - Undefined
+  - Big int
+- Non Primitive type
+  - Array
+  - Object 
 - Array and Object methods
 - let/var/const
 - Hoisting, Temporal Dead Zone
