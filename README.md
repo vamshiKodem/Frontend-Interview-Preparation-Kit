@@ -220,6 +220,13 @@ ___
 - Hooks
 - React Native threads (Main thread, javascript thread)
 - Bridge
-- Performance issue (The real cause behind React Native performance issues is that each thread (i.e Native and JS thread) is blazingly fast. The performance bottleneck in the React Native app occurs when you’re passing the components from one thread to another unnecessarily or more than required)
+- Performance issue (The real cause behind React Native performance issues is that each thread (i.e. Native and JS thread) is blazingly fast. The performance bottleneck in the React Native app occurs when you’re passing the components from one thread to another unnecessarily or more than required)
 - Build process
 - How React Native work under the hood
+- Optimizing the React Native Apps
+  - Using a Flat list or Section list instead of a scroll view for a large list of items. So they uses lazy loading internally.
+  - Minimizing the interaction between the UI thread and the main thread
+  - Caching the services and images
+  - Adding only optimized images or svg's
+  - Use of useCallback and useMemo for expensive things
+  - Memozie the expensive calculation.
