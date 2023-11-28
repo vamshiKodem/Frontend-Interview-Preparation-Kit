@@ -199,6 +199,13 @@ GreatFrontend System Design Framework
 - props and props drilling
 - Difference between class components vs functional components
 - Webpack (about Webpack and its uses)
+- Performance optimization
+  - Add only optimized images and cache the images locally
+  - Avoid unnecessary component rerendering by using useCallback, useMemo for expensive calculations and memoizing the component.
+  - Lazy loading of Images
+  - Lazy loading and Code spitting
+  - Keep state as local as possible to component.
+  - Optimize the state (In react rerendering happens when state changes). 
 - React Design Patterns (<a href="https://blog.logrocket.com/react-design-patterns">Useful link</a>,  <a href="https://javascriptpatterns.vercel.app/patterns">Js and React</a>)
   - Container/Presentational Pattern (We can use the Container/Presentational pattern to separate the logic of a component from the view)
   - Higher-Order Components (Pass reusable logic down as props to components throughout your application)
@@ -230,3 +237,5 @@ ___
   - Adding only optimized images or svg's
   - Use of useCallback and useMemo for expensive things
   - Memozie the expensive calculation.
+  - Minimize the rerender.
+  - Optimized state management.
