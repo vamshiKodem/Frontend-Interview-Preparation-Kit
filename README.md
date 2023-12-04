@@ -58,7 +58,9 @@ ___
   - Big int
 - Non Primitive type
   - Array
-  - Object 
+    - Map, filter, reduce, splice, slice 
+  - Object
+    - freeze, seal, isFreeze, isSeal 
 - Array and Object methods
 - let/var/const
 - Hoisting, Temporal Dead Zone
