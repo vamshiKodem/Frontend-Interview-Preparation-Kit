@@ -60,7 +60,8 @@ ___
   - Array
     - Map, filter, reduce, splice, slice 
   - Object
-    - freeze, seal, isFreeze, isSeal 
+    - freeze, seal, isFreeze, isSeal
+- Pass by value and pass by reference 
 - Array and Object methods
 - let/var/const
 - Hoisting, Temporal Dead Zone
