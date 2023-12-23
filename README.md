@@ -150,6 +150,9 @@ ___
   - Lazy Loading
   - Code splitting
   - Caching the services
+  - Asset optimization
+  - Fast Render
+  - Bundle correctly
 - Web Vitals
   - Largest contentful paint
     - Oversize files
