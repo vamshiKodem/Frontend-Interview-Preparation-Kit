@@ -206,6 +206,7 @@ GreatFrontend System Design Framework
   - JSX (What happens to jsx when we run react)
   - React keys (Why we should not use the index as a key for the list where we can modify the list)
   - Virtual dom
+  - React Fiber
 - React Lifecycle methods (Class and Functional)
 - How React update the async updates
 - State management (Context, Redux)
@@ -234,7 +235,10 @@ GreatFrontend System Design Framework
 - Architecture
   - Monolithic
   - Micro frontend
-  - Monorepo 
+  - Monorepo
+- Unit testing
+- Routing, Dynamic Routing, Secure Routing and public Routing
+
 ___  
 
 # Important React Native Topics
