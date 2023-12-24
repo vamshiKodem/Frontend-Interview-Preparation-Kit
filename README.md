@@ -171,7 +171,7 @@ ___
   - Security Vunarablitites
     - Cross-site scripting (XSS)
     - Cross-site Request Forgery (CSRF)
-    - SQL Injection (SQL I)  
+    - SQL Injection  
 - Design Patterns 
 - Other Important Topics
 ___
