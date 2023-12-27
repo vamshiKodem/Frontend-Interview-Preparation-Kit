@@ -49,7 +49,7 @@ ___
   - Execution Context
   - Callstack
 - Data types 
- - Primitive type
+ - Primitive type (Immutable - can't edit the value. string[1] = 'c')
   - String
   - Boolean
   - Number
@@ -57,7 +57,7 @@ ___
   - Null
   - Undefined
   - Big int
-- Non Primitive type
+- Non Primitive type (Mutable - We can edit the value. array[1] = 10)
   - Array
     - Map, filter, reduce, splice, slice 
   - Object
