@@ -50,18 +50,18 @@ ___
   - Callstack
 - Data types 
  - Primitive type (Immutable - can't edit the value. string[1] = 'c')
-  - String
-  - Boolean
-  - Number
-  - Symbol
-  - Null
-  - Undefined
-  - Big int
+   - String
+   - Boolean
+   - Number
+   - Symbol
+   - Null
+   - Undefined
+   - Big int
 - Non Primitive type (Mutable - We can edit the value. array[1] = 10)
-  - Array
-    - Map, filter, reduce, splice, slice 
-  - Object
-    - freeze, seal, isFreeze, isSeal
+   - Array
+     - Map, filter, reduce, splice, slice 
+   - Object
+     - freeze, seal, isFreeze, isSeal
 - Pass by value and pass by reference 
 - Array and Object methods
 - let/var/const
