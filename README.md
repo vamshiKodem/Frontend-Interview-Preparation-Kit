@@ -218,6 +218,7 @@ GreatFrontend System Design Framework
 - props and props drilling
 - Difference between class components vs functional components
 - Webpack (about Webpack and its uses)
+- How to share the data between the sibling components in react (using callback method in the parent for the both the components)
 - Performance optimization
   - Add only optimized images and cache the images locally
   - Avoid unnecessary component rerendering by using useCallback, useMemo for expensive calculations and memoizing the component.
