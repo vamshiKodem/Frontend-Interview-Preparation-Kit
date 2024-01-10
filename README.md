@@ -212,6 +212,7 @@ GreatFrontend System Design Framework
   - Virtual dom
   - React Fiber
 - React Lifecycle methods (Class and Functional)
+- Why to choose React hooks compared to class components
 - How React update the async updates
 - State management (Context, Redux)
 - React with typescript
