@@ -12,7 +12,8 @@
 - Don’t repeat yourself
 - Don’t leave commented code if not required delete it.
 - If using typescript don't compare stings use Types or Enums
-- Four Pillers of coding (Readability, Reusability, Testability, Modularity)
+- Four Pillars of coding (Readability, Reusability, Testability, Modularity)
+
 ___
 
 
