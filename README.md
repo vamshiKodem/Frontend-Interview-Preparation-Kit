@@ -69,6 +69,7 @@ ___
 - Hoisting, Temporal Dead Zone
 - Illegal shadowing
 - Scope, Scope chaining
+- Pure Functions
 - Mutable/Immutable data types
 - Shallow and Deep copy
 - DOM (DOM methods) and BOM
