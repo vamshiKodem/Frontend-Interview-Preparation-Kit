@@ -109,6 +109,7 @@ ___
 - setTimout, setInterval
 - High Order Functions
 - JS Engine
+- Module pattern in javascript
 - <a href="https://javascriptpatterns.vercel.app/patterns">Important link for design pattern (Js and React)</a>
 ___
 
