@@ -179,7 +179,7 @@ ___
 - Other Important Topics
 - Cache
   - Simple Cache (Simple cache will save the response. So if the response changes it will be updated)
-  - Mapped Cache (mappedCached will have parameters as well so if any parameter changes it will be call the API again)
+  - Mapped Cache (mappedCached will have parameters as well so if any parameter changes it will call the API again)
 ___
 
 
