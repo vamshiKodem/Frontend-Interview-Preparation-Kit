@@ -251,6 +251,12 @@ GreatFrontend System Design Framework
 - Unit testing
 - Routing, Dynamic Routing, Secure Routing and public Routing
 
+**New React 19 topics**
+React 19 is one of the major update with performance and developer-friendly focus. A few of the updates coming with are listed below.
+  - React Compiler
+  - Action
+  - Server Components
+
 ___  
 
 # Important React Native Topics
