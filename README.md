@@ -156,6 +156,10 @@ ___
   - Asset optimization
   - Fast Render
   - Bundle correctly
+- Web Socket
+- Long polling
+- Short Pooling
+- Web hooks
 - Web Vitals
   - Largest contentful paint
     - Oversize files
@@ -275,3 +279,11 @@ ___
   - Memozie the expensive calculation.
   - Minimize the rerender.
   - Optimized state management.
+ 
+# Testing
+
+- Unit Testing
+- End-to-End Testing
+- Component Testing
+- Integration Testing
+
