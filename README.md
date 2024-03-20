@@ -214,6 +214,7 @@ GreatFrontend System Design Framework
   - useContext()
   - useId()
   - useLayoutEffect() (useLayoutEffect can hurt performance. Prefer useEffect when possible.)
+  - Custom Hooks
 - How does react work under the hood
   - React reconciliation
   - diffing algorithm
