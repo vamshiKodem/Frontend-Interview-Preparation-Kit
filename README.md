@@ -159,7 +159,8 @@ ___
 - Web Socket
 - Long polling
 - Short Pooling
-- Web hooks
+- Webhooks
+- Search Engine Optimization
 - Web Vitals
   - Largest contentful paint
     - Oversize files
@@ -255,9 +256,10 @@ GreatFrontend System Design Framework
   - Monorepo
 - Unit testing
 - Routing, Dynamic Routing, Secure Routing and public Routing
+- Next js (Server Side Rendering and Client Side Rendering).
 
 **New React 19 topics**
-React 19 is one of the major update with performance and developer-friendly focus. A few of the updates coming with are listed below.
+React 19 is one of the major updates with a performance and developer-friendly focus. A few of the updates coming with are listed below.
   - React Compiler
   - Action
   - Server Components
