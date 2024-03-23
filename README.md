@@ -266,6 +266,11 @@ React 19 is one of the major updates with a performance and developer-friendly f
 
 ___  
 
+# Next Js
+
+- What is Next js
+- Why we should we use next js and its important features
+
 # Important React Native Topics
 - Hooks
 - React Native threads (Main thread, javascript thread)
