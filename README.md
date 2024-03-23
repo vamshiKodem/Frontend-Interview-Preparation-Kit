@@ -225,6 +225,7 @@ GreatFrontend System Design Framework
   - React Fiber
 - React Lifecycle methods (Class and Functional)
 - Why to choose React hooks compared to class components
+- Automatic Batching in React
 - How React update the async updates
 - State management (Context, Redux)
 - React with typescript
