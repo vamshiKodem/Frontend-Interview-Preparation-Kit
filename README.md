@@ -215,6 +215,9 @@ GreatFrontend System Design Framework
   - useContext()
   - useId()
   - useLayoutEffect() (useLayoutEffect can hurt performance. Prefer useEffect when possible.)
+  - useFormStatus()
+  - useFormState()
+  - useOptimistic()
   - Custom Hooks
 - How does react work under the hood
   - React reconciliation
@@ -264,6 +267,12 @@ React 19 is one of the major updates with a performance and developer-friendly f
   - React Compiler
   - Action
   - Server Components
+  - 'use server' and 'use client'
+  - Better SEO
+  - New Hooks
+    - useFormStatus()
+    - useFormState()
+    - useOptimistic()  
 
 ___  
 
