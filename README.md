@@ -237,6 +237,7 @@ GreatFrontend System Design Framework
 - Webpack (about Webpack and its uses)
 - How to share the data between the sibling components in react (using callback method in the parent for both the components)
 - Default Export and Named Export
+- Default Import and Named Import
 - Performance optimization
   - Add only optimized images and cache the images locally
   - Avoid unnecessary component rerendering by using useCallback, useMemo for expensive calculations and memoizing the component.
