@@ -282,6 +282,9 @@ ___
 
 - What is Next js
 - Why we should we use next js and its important features
+- What is getStaticProps
+- What is getServerSideProps
+- What is the difference between getStaticProps vs getServerSideProps
 
 # Important React Native Topics
 - Hooks
