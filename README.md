@@ -1,9 +1,10 @@
 # Frontend-Interview-Preparation-Kit
->[!NOTE]
->This repo contains complete guidance for Frontend Interview Preparation.
 
+> [!NOTE]
+> This repo contains complete guidance for Frontend Interview Preparation.
 
 # Clean Code Hack
+
 - Create a meaningful name
 - Don’t use words that don’t give much info about variables like date, or variable.
 - Don’t use magic numbers assign that to a meaningful name.
@@ -14,10 +15,10 @@
 - If using typescript don't compare stings use Types or Enums
 - Four Pillars of coding (Readability, Reusability, Testability, Modularity)
 
-___
-
+---
 
 # Important HTML Topics
+
 - HTML 5 features
 - HTML Document Structure
 - Forms (Input types, attributes, validations)
@@ -27,9 +28,11 @@ ___
 - Media tags: image, audio, video
 - SEO using HTML tags
 - IFrames
+
 ---
 
 # Important CSS Topics
+
 - Box Model
 - Cascading
 - Specificity
@@ -43,27 +46,29 @@ ___
 - z-index
 - Accessibility
 - px vs rem vs vh vs vw
+
 ---
 
 # Important Javascript Topics
+
 - Working of JS
   - Execution Context
   - Callstack
-- Data types 
- - Primitive type (Immutable - can't edit the value. string[1] = 'c')
-   - String
-   - Boolean
-   - Number
-   - Symbol
-   - Null
-   - Undefined
-   - Big int
+- Data types
+- Primitive type (Immutable - can't edit the value. string[1] = 'c')
+  - String
+  - Boolean
+  - Number
+  - Symbol
+  - Null
+  - Undefined
+  - Big int
 - Non Primitive type (Mutable - We can edit the value. array[1] = 10)
-   - Array
-     - Map, filter, reduce, splice, slice 
-   - Object
-     - freeze, seal, isFreeze, isSeal
-- Pass by value and pass by reference 
+  - Array
+    - Map, filter, reduce, splice, slice
+  - Object
+    - freeze, seal, isFreeze, isSeal
+- Pass by value and pass by reference
 - Array and Object methods
 - let/var/const
 - Hoisting, Temporal Dead Zone
@@ -88,7 +93,7 @@ ___
   - Promise.all()
   - Promise.allSettled()
   - Promise.any()
-  - Promise.race() 
+  - Promise.race()
 - Async/Await
 - Currying
 - Debouncing and Throttling
@@ -111,9 +116,11 @@ ___
 - JS Engine
 - Module pattern in javascript
 - <a href="https://javascriptpatterns.vercel.app/patterns">Important link for design pattern (Js and React)</a>
-___
+
+---
 
 # Practice Time!
+
 Remember practice makes a man perfect. So, here we will focus on practicing conceptual questions and making basic applications in JS.
 
 Practice on the following links step by step:
@@ -145,7 +152,8 @@ Adding below a list of small applications that you can practice:
 - Create an Analog Clock
 - Implement Day Calendar
 - Create a Todo List using Drag and Drop
-___
+
+---
 
 # Web Fundamentals!
 
@@ -165,13 +173,13 @@ ___
   - Largest contentful paint
     - Oversize files
     - Bad hosting
-    - Uncompressed images 
+    - Uncompressed images
   - First input delay
-  - cumulative layout shift 
+  - cumulative layout shift
 - Storing Data in the browser
   - Local storage
   - Session storage
-  - Cookie 
+  - Cookie
 - Network requests
 - DOM
 - Security
@@ -179,23 +187,23 @@ ___
   - Security Vunarablitites
     - Cross-site scripting (XSS)
     - Cross-site Request Forgery (CSRF)
-    - SQL Injection  
-- Design Patterns 
+    - SQL Injection
+- Design Patterns
 - Other Important Topics
 - Cache
   - Simple Cache (Simple cache will save the response. So if the response changes it will be updated)
   - Mapped Cache (mappedCached will have parameters as well so if any parameter changes it will call the API again)
-___
 
+---
 
 # Frontend System Design!
 
 Listing some best resources for studying System Design in Frontend, go on and binge-watch them:
 
-- <p><a href="https://www.youtube.com/watch?v=5vyKhm2NTfw&list=PLI9W87-Dqn7j_x6QtR6sUjycJR7nQLBqT">Front-End Engineer YT Channel</a></p> 
+- <p><a href="https://www.youtube.com/watch?v=5vyKhm2NTfw&list=PLI9W87-Dqn7j_x6QtR6sUjycJR7nQLBqT">Front-End Engineer YT Channel</a></p>
 - <p><a href='https://www.youtube.com/watch?v=sV_4pOGosnU&list=PL4CFloQ4GGWICE0Tz6iXKfN3XWkXRlboU'>Chirag Goel YT Channel</a></p>
 - <p><a href='https://bigfrontend.dev/design'> BigFrontend Frontend Design Questions</a></p>
-- <p><a href="https://www.greatfrontend.com/system-design">GreatFrontend Design Questions</a></p> 
+- <p><a href="https://www.greatfrontend.com/system-design">GreatFrontend Design Questions</a></p>
 
 The above resources will help you in understanding the way you can deal with System Design rounds, although these solutions are not the only ones, you can come up with your own ideas as well. Also, different interviewers have different expectations when they ask you to provide a design for any system, no solution is the best/concrete solution in that case, however you can follow this pattern for framing your answers:
 
@@ -244,8 +252,8 @@ GreatFrontend System Design Framework
   - Lazy loading of Images
   - Lazy loading and Code spitting
   - Keep state as local as possible to component.
-  - Optimize the state (In react rerendering happens when state changes). 
-- React Design Patterns (<a href="https://blog.logrocket.com/react-design-patterns">Useful link</a>,  <a href="https://javascriptpatterns.vercel.app/patterns">Js and React</a>)
+  - Optimize the state (In react rerendering happens when state changes).
+- React Design Patterns (<a href="https://blog.logrocket.com/react-design-patterns">Useful link</a>, <a href="https://javascriptpatterns.vercel.app/patterns">Js and React</a>)
   - Container/Presentational Pattern (We can use the Container/Presentational pattern to separate the logic of a component from the view)
   - Higher-Order Components (Pass reusable logic down as props to components throughout your application)
   - Render Props Pattern (Pass JSX elements to components through props)
@@ -266,17 +274,18 @@ GreatFrontend System Design Framework
 
 **New React 19 topics**
 React 19 is one of the major updates with a performance and developer-friendly focus. A few of the updates coming with are listed below.
-  - React Compiler
-  - Action
-  - Server Components
-  - 'use server' and 'use client'
-  - Better SEO
-  - New Hooks
-    - useFormStatus()
-    - useFormState()
-    - useOptimistic()  
 
-___  
+- React Compiler
+- Action
+- Server Components
+- 'use server' and 'use client'
+- Better SEO
+- New Hooks
+  - useFormStatus()
+  - useFormState()
+  - useOptimistic()
+
+---
 
 # Next Js
 
@@ -287,6 +296,7 @@ ___
 - What is the difference between getStaticProps vs getServerSideProps
 
 # Important React Native Topics
+
 - Hooks
 - React Native threads (Main thread, javascript thread)
 - Bridge
@@ -305,11 +315,10 @@ ___
   - Memozie the expensive calculation.
   - Minimize the rerender.
   - Optimized state management.
- 
+
 # Testing
 
 - Unit Testing
 - End-to-End Testing
 - Component Testing
 - Integration Testing
-
