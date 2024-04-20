@@ -111,7 +111,7 @@
 - async/defer
 - Polyfills (Mostly asked polyfills: Promise, Promise.all, Promise.any, Promise.race, Promise.allSettled, call, apply, bind, map, reduce, filter, forEach, flat, fetch API)
 - Web APIs
-- setTimout, setInterval
+- setTimeout, setInterval
 - High Order Functions
 - JS Engine
 - Module pattern in javascript
