@@ -65,7 +65,7 @@
   - Big int
 - Non Primitive type (Mutable - We can edit the value. array[1] = 10)
   - Array
-    - Map, filter, reduce, splice, slice
+    - Map, filter, reduce, splice, slice, foreach
   - Object
     - freeze, seal, isFreeze, isSeal
 - Pass by value and pass by reference
