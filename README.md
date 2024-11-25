@@ -302,6 +302,7 @@ React 19 is one of the major updates with a performance and developer-friendly f
 - Bridge
 - Interaction Manager
 - Set Native Props
+- React Native builder bob for building package for RN libraries
 - Yoga
 - Performance issue (The real cause behind React Native performance issues is that each thread (i.e. Native and JS thread) is blazingly fast. The performance bottleneck in the React Native app occurs when you’re passing the components from one thread to another unnecessarily or more than required)
 - Build process
