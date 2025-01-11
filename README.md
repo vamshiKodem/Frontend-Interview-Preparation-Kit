@@ -1,4 +1,4 @@
-# Frontend-Interview-Preparation-Kit
+# Frontend Interview Preparation Kit
 
 > [!NOTE]
 > This repo contains complete guidance for Frontend Interview Preparation.
