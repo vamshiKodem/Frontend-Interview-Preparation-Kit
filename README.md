@@ -211,6 +211,9 @@ Adding below a list of small applications that you can practice:
 - Type Guards
 - Decorators
 - Optional Chaining and Nullish Coalescing
+- Mapped Types
+- Utility Types
+-  
 
 # Frontend System Design!
 
