@@ -196,6 +196,13 @@ Adding below a list of small applications that you can practice:
 
 ---
 
+
+# Typescript
+
+- Static Typing
+- Type Annotations
+- Interfaces
+
 # Frontend System Design!
 
 Listing some best resources for studying System Design in Frontend, go on and binge-watch them:
