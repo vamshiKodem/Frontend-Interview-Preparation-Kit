@@ -202,6 +202,15 @@ Adding below a list of small applications that you can practice:
 - Static Typing
 - Type Annotations
 - Interfaces
+- Classes and Inheritance
+- Access Modifiers
+- Generics
+- Union and Intersection Types
+- Enums
+- Tuple Types
+- Type Guards
+- Decorators
+- Optional Chaining and Nullish Coalescing
 
 # Frontend System Design!
 
