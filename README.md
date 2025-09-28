@@ -3,44 +3,45 @@
 > [!NOTE]
 > This repo contains complete guidance for Frontend Interview Preparation.
 
-# Clean Code Hack
+---
 
-- Create a meaningful name
-- Don’t use words that don’t give much info about variables like date, or variable.
-- Don’t use magic numbers assign that to a meaningful name.
-- Function name should be small below 20 chars
-- For function use a few arguments max of 2. If required use the object
-- Don’t repeat yourself
-- Don’t leave commented code if not required delete it.
-- If using typescript don't compare stings use Types or Enums
-- Four Pillars of coding (Readability, Reusability, Testability, Modularity)
+## Clean Code Hack
+
+- Create a meaningful name.
+- Don’t use vague variable names like `date` or `variable`.
+- Don’t use magic numbers; assign them to meaningful constants.
+- Function names should be short (below 20 characters).
+- Limit function arguments to max 2; if more, use an object.
+- Don’t repeat yourself (DRY).
+- Remove commented-out code if not needed.
+- In TypeScript, use Types or Enums instead of string comparisons.
+- Four pillars of coding: **Readability, Reusability, Testability, Modularity**.
 
 ---
 
-# Important HTML Topics
+## Important HTML Topics
 
-- HTML 5 features
+- HTML5 features
 - HTML Document Structure
-- Forms (Input types, attributes, validations)
+- Forms (input types, attributes, validations)
 - Semantic tags and uses
 - Web Accessibility
-- Metatag
+- Meta tags
 - Media tags: image, audio, video
 - SEO using HTML tags
 - IFrames
 
 ---
 
-# Important CSS Topics
+## Important CSS Topics
 
 - Box Model
-- Cascading
-- Specificity
-- Flex
+- Cascading and Specificity
+- Flexbox
 - Grid
 - Selectors
-- Pseudo-class Vs Pseudo-elements
-- Measurement Units (Absolute vs relative units, Which one to prefer?)
+- Pseudo-class vs Pseudo-elements
+- Measurement Units (absolute vs relative, and best practices)
 - Positions
 - Animations and Transitions
 - z-index
@@ -49,294 +50,245 @@
 
 ---
 
-# Important Javascript Topics
+## Important JavaScript Topics
 
 - Working of JS
   - Execution Context
   - Callstack
-- Data types
-- Primitive type (Immutable - can't edit the value. string[1] = 'c')
-  - String
-  - Boolean
-  - Number
-  - Symbol
-  - Null
-  - Undefined
-  - Big int
-- Non Primitive type (Mutable - We can edit the value. array[1] = 10)
-  - Array
-    - Map, filter, reduce, splice, slice, foreach
-  - Object
-    - freeze, seal, isFreeze, isSeal
-- Pass by value and pass by reference
-- Array and Object methods
-- let/var/const
-- Hoisting, Temporal Dead Zone
+- Data Types
+  - Primitive Types (Immutable)
+    - String, Boolean, Number, Symbol, Null, Undefined, BigInt
+  - Non-Primitive Types (Mutable)
+    - Array (map, filter, reduce, splice, slice, forEach)
+    - Object (freeze, seal, isFrozen, isSealed)
+- Pass by value vs pass by reference
+- let / var / const
+- Hoisting & Temporal Dead Zone
 - Illegal shadowing
-- Scope, Scope chaining
+- Scope & Scope chaining
 - Pure Functions
 - Mutable/Immutable data types
-- Shallow and Deep copy
+- Shallow vs Deep copy
 - DOM (DOM methods) and BOM
 - Critical Rendering Path
 - Functions
-  - Function Declaration
-  - Function Expression
+  - Declaration, Expression, Arrow Functions, IIFE
   - Functional Programming
-  - Arrow Functions
-  - IIFE
 - this keyword
 - Call, Apply, Bind
-- Closure and its uses
-- Callbacks, Callback Hell
-- Promises, promise chaining
-  - Promise.all()
-  - Promise.allSettled()
-  - Promise.any()
-  - Promise.race()
+- Closures and their uses
+- Callbacks and Callback Hell
+- Promises and chaining
+  - Promise.all(), allSettled(), any(), race()
 - Async/Await
 - Currying
-- Debouncing and Throttling
-- Event Propagation
-  - Bubbling
-  - Capturing
-  - Event Delegation
+- Debouncing & Throttling
+- Event Propagation (Bubbling, Capturing, Delegation)
 - Prototype and Prototypal Inheritance
-- Memoisation
+- Memoization
 - Map and Set
 - Generator Functions
-- Working on JS Engine
-- Event Loop, Mictrotasks,
-- Events: DOMContentLoaded, load, beforeunload, unload
-- async/defer
-- Polyfills (Mostly asked polyfills: Promise, Promise.all, Promise.any, Promise.race, Promise.allSettled, call, apply, bind, map, reduce, filter, forEach, flat, fetch API)
+- JS Engine internals
+- Event Loop and Microtasks
+- Important Events (DOMContentLoaded, load, beforeunload, unload)
+- async/defer scripts
+- Polyfills (Promise, map, reduce, filter, fetch API, etc.)
 - Web APIs
 - setTimeout, setInterval
-- High Order Functions
-- JS Engine
-- Module pattern in javascript
-- <a href="https://javascriptpatterns.vercel.app/patterns">Important link for design pattern (Js and React)</a>
+- Higher Order Functions
+- Module Pattern
+- [Important Design Patterns (JS & React)](https://javascriptpatterns.vercel.app/patterns)
 
 ---
 
-# Practice Time!
+## Practice Time!
 
-Remember practice makes a man perfect. So, here we will focus on practicing conceptual questions and making basic applications in JS.
+Practice is key! Start with conceptual questions and build basic JS apps.
 
-Practice on the following links step by step:
+Recommended resources:
 
-<p><a href='https://leetcode.com/studyplan/30-days-of-javascript/'>Leetcode 30 days of JS</a></p>
-<p>Start with Easy questions, then Medium and Hard: GreatFrontend JS Problems: Solutions</p>
-<p><a href='https://bigfrontend.dev/'>BigFrontEnd Javascript Problems</a></p>
-  
-Above mentioned resources are more than enough for practicing Javascript questions. Now comes the turn of practicing by making some small applications in HTML, CSS, JS. Such type of questions are generally asked in Machine Coding rounds.
+- [LeetCode 30 Days of JavaScript](https://leetcode.com/studyplan/30-days-of-javascript/)
+- [BigFrontend JavaScript Problems](https://bigfrontend.dev/)
 
-Adding below a list of small applications that you can practice:
+Build these small apps to solidify your skills:
 
 - Star Rating
-- Implementing Flipkart Search bar functionality using debouncing or throttle
-- Typeahead/ autocomplete search bar
-- Todo List (Having CRUD operations)
-- Creating components like Carousel, Accordion, Popover
+- Flipkart Search bar with debouncing/throttle
+- Typeahead/autocomplete search bar
+- Todo List with CRUD
+- Carousel, Accordion, Popover components
 - Infinite Scroll
-- Implement tic-tac-toe
-- Create Images gallery(Use optimations like infinite scroll, pagination, and search functionality)
-- Implement a poll widget
-- Implement an Event Emitter
-- Implement a Kanban board having tasks and subtasks
-- Creating a basic Chat Application
-- Implement Comment Widget (add comments, add multiple replies to comments, and delete them like Facebook or Instagram)
-- Food Ordering App having Search, Sort, Filter, Add to Cart Functionality
-- Build a calculator (add/subtract... then multiply/divide... then log/pow... etc)
-- Create a progress bar having start/restart, pause, and stop functionality
-- Create an Analog Clock
-- Implement Day Calendar
-- Create a Todo List using Drag and Drop
+- Tic-Tac-Toe
+- Image gallery (infinite scroll, pagination, search)
+- Poll widget
+- Event Emitter
+- Kanban board with tasks/subtasks
+- Basic Chat Application
+- Comment Widget (nested replies, delete like Facebook)
+- Food Ordering App (Search, Sort, Filter, Cart)
+- Calculator (basic & advanced operations)
+- Progress Bar (start, pause, restart)
+- Analog Clock
+- Day Calendar
+- Todo List with Drag and Drop
 
 ---
 
-# Web Fundamentals!
+## Web Fundamentals
 
-- Web Performance and Optimisations
+- Web Performance & Optimization
   - Lazy Loading
   - Code splitting
-  - Caching the services
+  - Caching services
   - Asset optimization
-  - Fast Render
-  - Bundle correctly
-- Web Socket
-- Long polling
-- Short Pooling
+  - Fast rendering & proper bundling
+- Web Sockets
+- Long polling & Short polling
 - Webhooks
-- Search Engine Optimization
+- SEO Basics
 - Web Vitals
-  - Largest contentful paint
-    - Oversize files
-    - Bad hosting
-    - Uncompressed images
-  - First input delay
-  - cumulative layout shift
-- Storing Data in the browser
-  - Local storage
-  - Session storage
-  - Cookie
+  - Largest Contentful Paint (LCP)
+  - First Input Delay (FID)
+  - Cumulative Layout Shift (CLS)
+- Storing Data in Browser
+  - LocalStorage, SessionStorage, Cookies
 - Network requests
-- DOM
-- Security
+- DOM manipulation & security
+- Security vulnerabilities
   - SSL Pinning
-  - Security Vunarablitites
-    - Cross-site scripting (XSS)
-    - Cross-site Request Forgery (CSRF)
-    - SQL Injection
+  - Cross-site scripting (XSS)
+  - Cross-site Request Forgery (CSRF)
+  - SQL Injection
 - Design Patterns
-- Other Important Topics
-- Cache
-  - Simple Cache (Simple cache will save the response. So if the response changes it will be updated)
-  - Mapped Cache (mappedCached will have parameters as well so if any parameter changes it will call the API again)
+- Cache strategies
+  - Simple Cache
+  - Mapped Cache
 
 ---
 
-
-# Typescript
+## TypeScript
 
 - Static Typing
 - Type Annotations
 - Interfaces
-- Classes and Inheritance
+- Classes & Inheritance
 - Access Modifiers
 - Generics
-- Union and Intersection Types
+- Union & Intersection Types
 - Enums
 - Tuple Types
 - Type Guards
 - Decorators
-- Optional Chaining and Nullish Coalescing
+- Optional Chaining & Nullish Coalescing
 - Mapped Types
 - Utility Types
--  
-
-# Frontend System Design!
-
-Listing some best resources for studying System Design in Frontend, go on and binge-watch them:
-
-- <p><a href="https://www.youtube.com/watch?v=5vyKhm2NTfw&list=PLI9W87-Dqn7j_x6QtR6sUjycJR7nQLBqT">Front-End Engineer YT Channel</a></p>
-- <p><a href='https://www.youtube.com/watch?v=sV_4pOGosnU&list=PL4CFloQ4GGWICE0Tz6iXKfN3XWkXRlboU'>Chirag Goel YT Channel</a></p>
-- <p><a href='https://bigfrontend.dev/design'> BigFrontend Frontend Design Questions</a></p>
-- <p><a href="https://www.greatfrontend.com/system-design">GreatFrontend Design Questions</a></p>
-
-The above resources will help you in understanding the way you can deal with System Design rounds, although these solutions are not the only ones, you can come up with your own ideas as well. Also, different interviewers have different expectations when they ask you to provide a design for any system, no solution is the best/concrete solution in that case, however you can follow this pattern for framing your answers:
-
-GreatFrontend System Design Framework
 
 ---
 
-# Important React Topics
+## Frontend System Design
 
-- Hooks
-  - useState()
-  - useEffect()
-  - useCallback()
-  - useMemo()
-  - useRef()
-  - useReducer()
-  - useContext()
-  - useId()
-  - useLayoutEffect() (useLayoutEffect can hurt performance. Prefer useEffect when possible.)
-  - useFormStatus()
-  - useFormState()
-  - useOptimistic()
-  - Custom Hooks
-- How does react work under the hood
-  - React reconciliation
-  - diffing algorithm
-  - JSX (What happens to jsx when we run react)
-  - React keys (Why we should not use the index as a key for the list where we can modify the list)
-  - Virtual dom
+Resources to master system design for frontend:
+
+- [Front-End Engineer YouTube Channel](https://www.youtube.com/watch?v=5vyKhm2NTfw&list=PLI9W87-Dqn7j_x6QtR6sUjycJR7nQLBqT)
+- [Chirag Goel YouTube Channel](https://www.youtube.com/watch?v=sV_4pOGosnU&list=PL4CFloQ4GGWICE0Tz6iXKfN3XWkXRlboU)
+- [BigFrontend Design Questions](https://bigfrontend.dev/design)
+- [GreatFrontend Design Questions](https://www.greatfrontend.com/system-design)
+
+### System Design Answer Framework
+
+There is no single “best” solution; interviewers expect structured answers and creativity.
+
+---
+
+## Important React Topics
+
+- Hooks: useState, useEffect, useCallback, useMemo, useRef, useReducer, useContext, useId, useLayoutEffect (prefer useEffect), useFormStatus, useFormState, useOptimistic, Custom Hooks
+- React internals:
+  - Reconciliation & Diffing Algorithm
+  - JSX compilation
+  - React keys (avoid using index as key if list changes)
+  - Virtual DOM
   - React Fiber
-- React Lifecycle methods (Class and Functional)
-- Why to choose React hooks compared to class components
-- Automatic Batching in React
-- How React update the async updates
-- State management (Context, Redux)
-- React with typescript
-- props and props drilling
-- Difference between class components vs functional components
-- Webpack (about Webpack and its uses)
-- How to share the data between the sibling components in react (using callback method in the parent for both the components)
-- Default Export and Named Export
-- Default Import and Named Import
-- Performance optimization
-  - Add only optimized images and cache the images locally
-  - Avoid unnecessary component rerendering by using useCallback, useMemo for expensive calculations and memoizing the component.
-  - Lazy loading of Images
-  - Lazy loading and Code spitting
-  - Keep state as local as possible to component.
-  - Optimize the state (In react rerendering happens when state changes).
-- React Design Patterns (<a href="https://blog.logrocket.com/react-design-patterns">Useful link</a>, <a href="https://javascriptpatterns.vercel.app/patterns">Js and React</a>)
-  - Container/Presentational Pattern (We can use the Container/Presentational pattern to separate the logic of a component from the view)
-  - Higher-Order Components (Pass reusable logic down as props to components throughout your application)
-  - Render Props Pattern (Pass JSX elements to components through props)
-  - Hooks Pattern (Use functions to reuse stateful logic among multiple components throughout the app)
-  - Provider Pattern (Make data available to multiple child components)
-  - Compound Pattern (Create multiple components that work together to perform a single task)
-- Redux
-  - Single source of truth: The global state of our application is always put away in an object tree inside one store.
-  - The state is read-only: The only way to change the state of our application is by emitting an action, an object explaining what has happened.
-  - Changes are made with pure functions: This principle means that in order to define how the state tree is being transformed by the actions, we have to write pure reducers.
-- Architecture
+- React Lifecycle (Class & Functional)
+- Hooks vs Class Components
+- Automatic Batching
+- Async State Updates
+- State Management (Context API, Redux)
+- React with TypeScript
+- Props & Prop Drilling
+- Class vs Functional Components
+- Webpack basics
+- Sharing data between siblings via parent callbacks
+- Default and Named Exports/Imports
+- Performance Optimization:
+  - Image optimization and caching
+  - Memoization with useCallback and useMemo
+  - Lazy loading images and code splitting
+  - Localizing state
+- React Design Patterns:
+  - Container/Presentational
+  - Higher-Order Components
+  - Render Props
+  - Hooks Pattern
+  - Provider Pattern
+  - Compound Pattern
+- Redux principles:
+  - Single source of truth
+  - State is read-only
+  - Changes via pure reducers
+- Architecture:
   - Monolithic
-  - Micro frontend
+  - Micro Frontend
   - Monorepo
-- Unit testing
-- Routing, Dynamic Routing, Secure Routing and public Routing
-- Next js (Server Side Rendering and Client Side Rendering).
+- Unit Testing
+- Routing (dynamic, secure, public)
+- Next.js basics (SSR, CSR)
 
-**New React 19 topics**
-React 19 is one of the major updates with a performance and developer-friendly focus. A few of the updates coming with are listed below.
+### New React 19 Topics
 
 - React Compiler
 - Action
 - Server Components
-- 'use server' and 'use client'
+- `'use server'` and `'use client'`
 - Better SEO
-- New Hooks
-  - useFormStatus()
-  - useFormState()
-  - useOptimistic()
+- New Hooks: useFormStatus, useFormState, useOptimistic
 
 ---
 
-# Next Js
+## Next.js
 
-- What is Next js
-- Why we should we use next js and its important features
-- What is getStaticProps
-- What is getServerSideProps
-- What is the difference between getStaticProps vs getServerSideProps
+- What is Next.js
+- Why use Next.js & features
+- getStaticProps
+- getServerSideProps
+- Difference between getStaticProps & getServerSideProps
 
-# Important React Native Topics
+---
+
+## Important React Native Topics
 
 - Hooks
-- React Native threads (Main thread, javascript thread)
+- React Native threads (Main thread, JS thread)
 - Bridge
 - Interaction Manager
 - Set Native Props
-- React Native builder bob for building package for RN libraries
-- Yoga
-- Performance issue (The real cause behind React Native performance issues is that each thread (i.e. Native and JS thread) is blazingly fast. The performance bottleneck in the React Native app occurs when you’re passing the components from one thread to another unnecessarily or more than required)
+- React Native Builder Bob (for libraries)
+- Yoga layout engine
+- Performance issues & optimizations
 - Build process
-- How React Native work under the hood
-- Optimizing the React Native Apps
-  - Using a Flat list or Section list instead of a scroll view for a large list of items. So they uses lazy loading internally.
-  - Minimizing the interaction between the UI thread and the main thread
-  - Caching the services and images
-  - Adding only optimized images or svg's
-  - Use of useCallback and useMemo for expensive things
-  - Memozie the expensive calculation.
-  - Minimize the rerender.
-  - Optimized state management.
+- React Native internals
+- Optimizing React Native Apps:
+  - Use FlatList/SectionList for large lists
+  - Minimize UI-JS thread interaction
+  - Cache services & images
+  - Use optimized images/SVGs
+  - Memoize expensive calculations with useCallback/useMemo
+  - Minimize re-renders
+  - Optimize state management
 
-# Testing
+---
+
+## Testing
 
 - Unit Testing
 - End-to-End Testing
