@@ -1,296 +1,1169 @@
-# Frontend Interview Preparation Kit
+# 📚 Frontend Interview Topics Reference Guide
 
-> [!NOTE]
-> This repo contains complete guidance for Frontend Interview Preparation.
-
----
-
-## Clean Code Hack
-
-- Create a meaningful name.
-- Don’t use vague variable names like `date` or `variable`.
-- Don’t use magic numbers; assign them to meaningful constants.
-- Function names should be short (below 20 characters).
-- Limit function arguments to max 2; if more, use an object.
-- Don’t repeat yourself (DRY).
-- Remove commented-out code if not needed.
-- In TypeScript, use Types or Enums instead of string comparisons.
-- Four pillars of coding: **Readability, Reusability, Testability, Modularity**.
+> **Quick Reference Checklist** - Comprehensive topic-wise breakdown for interview preparation
 
 ---
 
-## Important HTML Topics
+## 📑 Table of Contents
 
-- HTML5 features
-- HTML Document Structure
-- Forms (input types, attributes, validations)
-- Semantic tags and uses
-- Web Accessibility
-- Meta tags
-- Media tags: image, audio, video
-- SEO using HTML tags
-- IFrames
-
----
-
-## Important CSS Topics
-
-- Box Model
-- Cascading and Specificity
-- Flexbox
-- Grid
-- Selectors
-- Pseudo-class vs Pseudo-elements
-- Measurement Units (absolute vs relative, and best practices)
-- Positions
-- Animations and Transitions
-- z-index
-- Accessibility
-- px vs rem vs vh vs vw
+1. [🧹 Clean Code Principles](#-clean-code-principles)
+2. [🌐 HTML Topics](#-html-topics)
+3. [🎨 CSS Topics](#-css-topics)
+4. [⚡ JavaScript Topics](#-javascript-topics)
+5. [🏗️ Web Fundamentals](#️-web-fundamentals)
+6. [🔷 TypeScript Topics](#-typescript-topics)
+7. [⚛️ React Topics](#️-react-topics)
+8. [🌟 Next.js Topics](#-nextjs-topics)
+9. [📱 React Native Topics](#-react-native-topics)
+10. [🧪 Testing Topics](#-testing-topics)
+11. [🏛️ Frontend System Design Topics](#️-frontend-system-design-topics)
+12. [🔧 Development Tools & Build Process](#-development-tools--build-process)
+13. [🔐 Security Topics](#-security-topics)
+14. [⚡ Performance & Optimization](#-performance--optimization)
 
 ---
 
-## Important JavaScript Topics
+## 🧹 Clean Code Principles
 
-- Working of JS
-  - Execution Context
-  - Callstack
-- Data Types
-  - Primitive Types (Immutable)
-    - String, Boolean, Number, Symbol, Null, Undefined, BigInt
-  - Non-Primitive Types (Mutable)
-    - Array (map, filter, reduce, splice, slice, forEach)
-    - Object (freeze, seal, isFrozen, isSealed)
-- Pass by value vs pass by reference
-- let / var / const
-- Hoisting & Temporal Dead Zone
-- Illegal shadowing
-- Scope & Scope chaining
-- Pure Functions
-- Mutable/Immutable data types
-- Shallow vs Deep copy
-- DOM (DOM methods) and BOM
-- Critical Rendering Path
-- Functions
-  - Declaration, Expression, Arrow Functions, IIFE
-  - Functional Programming
-- this keyword
-- Call, Apply, Bind
-- Closures and their uses
-- Callbacks and Callback Hell
-- Promises and chaining
-  - Promise.all(), allSettled(), any(), race()
-- Async/Await
-- Currying
-- Debouncing & Throttling
-- Event Propagation (Bubbling, Capturing, Delegation)
-- Prototype and Prototypal Inheritance
-- Memoization
-- Map and Set
-- Generator Functions
-- JS Engine internals
-- Event Loop and Microtasks
-- Important Events (DOMContentLoaded, load, beforeunload, unload)
-- async/defer scripts
-- Polyfills (Promise, map, reduce, filter, fetch API, etc.)
+### 📝 Naming Conventions
+
+- Meaningful variable names
+- Function naming best practices
+- Class and component naming
+- Constants and enum naming
+- Avoiding abbreviations and acronyms
+
+### 🏗️ Code Structure
+
+- Function design principles
+- Single Responsibility Principle (SRP)
+- DRY (Don't Repeat Yourself)
+- KISS (Keep It Simple, Stupid)
+- YAGNI (You Aren't Gonna Need It)
+
+### 📊 Code Quality Metrics
+
+- Cyclomatic complexity
+- Code coverage
+- Technical debt management
+- Code review practices
+- Documentation standards
+
+### 🎯 Four Pillars of Clean Code
+
+- **Readability** - Self-documenting code
+- **Reusability** - Modular components
+- **Testability** - Easy to test functions
+- **Modularity** - Separation of concerns
+
+---
+
+## 🌐 HTML Topics
+
+### 🏗️ HTML5 Fundamentals
+
+- HTML5 document structure
+- Doctype declaration
+- HTML5 semantic elements
+- HTML5 vs HTML4 differences
+- Browser compatibility
+
+### 🎯 Semantic HTML
+
+- `<header>`, `<nav>`, `<main>`
+- `<article>`, `<section>`, `<aside>`
+- `<footer>`, `<figure>`, `<figcaption>`
+- `<time>`, `<address>`, `<details>`
+- When to use semantic vs div
+
+### 📝 Forms and Input Elements
+
+- Form validation (client-side vs server-side)
+- Input types: text, email, password, number, date, file
+- Form attributes: required, pattern, min, max, step
+- Label association and accessibility
+- Fieldset and legend elements
+- Form submission methods (GET vs POST)
+- File upload handling
+- Custom form validation
+
+### ♿ Web Accessibility (a11y)
+
+- ARIA attributes and roles
+- Screen reader compatibility
+- Keyboard navigation
+- Focus management
+- Color contrast requirements
+- Alt text for images
+- Accessible forms
+- WCAG guidelines (A, AA, AAA)
+
+### 🏷️ Meta Tags and SEO
+
+- Essential meta tags
+- Open Graph meta tags
+- Twitter Card meta tags
+- Viewport meta tag
+- Charset declaration
+- Canonical URLs
+- Schema.org structured data
+- Robots meta tag
+
+### 🎬 Media Elements
+
+- Image optimization and responsive images
+- `srcset` and `sizes` attributes
+- Picture element
+- Video and audio elements
+- Media queries in HTML
+- Lazy loading attributes
+- WebP and modern image formats
+
+### 🖼️ Advanced HTML Features
+
+- IFrames and security considerations
+- Web Components (Custom Elements)
+- Shadow DOM
+- HTML Templates
+- Data attributes
+- Microdata and JSON-LD
+- Progressive Web App manifest
+
+---
+
+## 🎨 CSS Topics
+
+### 📦 CSS Fundamentals
+
+- CSS syntax and selectors
+- Cascade and inheritance
+- Specificity calculation
+- CSS box model
+- Display property values
+- CSS units (absolute vs relative)
+
+### 🎯 Selectors and Pseudo-classes
+
+- Basic selectors (element, class, ID)
+- Combinator selectors
+- Attribute selectors
+- Pseudo-classes (`:hover`, `:active`, `:nth-child`)
+- Pseudo-elements (`::before`, `::after`)
+- CSS selector performance
+- Modern pseudo-classes (`:is()`, `:where()`, `:has()`)
+
+### 🏗️ Layout Systems
+
+#### Flexbox
+
+- Flex container properties
+- Flex item properties
+- Main axis vs cross axis
+- Flex shorthand property
+- Flexbox alignment
+- Common flexbox patterns
+
+#### CSS Grid
+
+- Grid container and grid items
+- Grid lines, tracks, and areas
+- Grid template properties
+- Grid placement properties
+- Implicit vs explicit grid
+- Responsive grid layouts
+- Subgrid (CSS Grid Level 2)
+
+### 📍 Positioning
+
+- Static, relative, absolute positioning
+- Fixed and sticky positioning
+- Z-index and stacking contexts
+- Containing blocks
+- CSS transforms and positioning
+
+### 🎨 Visual Design
+
+- Colors (hex, rgb, hsl, color functions)
+- Typography and web fonts
+- CSS custom properties (variables)
+- CSS functions (calc, clamp, min, max)
+- Gradients and patterns
+- Shadows and filters
+- CSS shapes
+
+### ✨ Animations and Transitions
+
+- CSS transitions
+- CSS animations and keyframes
+- Transform properties
+- Animation performance
+- Hardware acceleration
+- Animation best practices
+- Reduced motion preferences
+
+### 📱 Responsive Design
+
+- Mobile-first approach
+- Media queries
+- Breakpoint strategies
+- Responsive units (rem, em, vw, vh)
+- Container queries
+- Responsive images
+- Viewport meta tag
+
+### 🔧 CSS Preprocessors and Tools
+
+- Sass/SCSS features
+- Variables, mixins, and functions
+- Nesting and partials
+- PostCSS and autoprefixing
+- CSS-in-JS solutions
+- CSS modules
+- Styled-components
+
+### 🏗️ CSS Architecture
+
+- BEM methodology
+- OOCSS (Object-Oriented CSS)
+- SMACSS principles
+- Atomic CSS
+- CSS naming conventions
+- Component-based CSS
+
+---
+
+## ⚡ JavaScript Topics
+
+### 🧠 JavaScript Fundamentals
+
+- JavaScript execution context
+- Call stack and memory heap
+- Execution phases (creation and execution)
+- Global vs function execution context
+- Variable environment
+- This keyword binding
+
+### 📚 Data Types and Variables
+
+#### Primitive Types
+
+- String, Number, Boolean
+- null vs undefined
+- Symbol and BigInt
+- Type coercion rules
+- Falsy and truthy values
+
+#### Reference Types
+
+- Objects and object manipulation
+- Arrays and array methods
+- Functions as first-class citizens
+- Date, Map, Set, WeakMap, WeakSet
+- Regular expressions
+
+### 🔄 Variables and Scope
+
+- var, let, const differences
+- Function scope vs block scope
+- Lexical scoping
+- Scope chain
+- Variable hoisting
+- Temporal Dead Zone (TDZ)
+- Global vs local variables
+
+### 🚀 Hoisting and TDZ
+
+- Variable hoisting behavior
+- Function hoisting vs function expressions
+- Let and const hoisting
+- Temporal Dead Zone explained
+- Best practices for variable declaration
+
+### 🔒 Closures
+
+- Closure definition and concept
+- Lexical environment
+- Practical uses of closures
+- Module pattern
+- Data privacy and encapsulation
+- Memory implications of closures
+- Closure interview questions
+
+### ⚙️ Functions
+
+#### Function Types
+
+- Function declarations
+- Function expressions
+- Arrow functions
+- IIFE (Immediately Invoked Function Expression)
+- Generator functions
+- Async functions
+
+#### Function Concepts
+
+- Function parameters and arguments
+- Default parameters
+- Rest parameters
+- Spread operator
+- Higher-order functions
+- Pure functions vs impure functions
+- Function composition
+
+### 🎭 this Keyword and Binding
+
+- this in different contexts
+- Global this binding
+- Object method this binding
+- Constructor function this
+- Arrow functions and this
+- Explicit binding (call, apply, bind)
+- this in strict mode
+
+### 🔗 Prototypes and Inheritance
+
+- Prototype chain
+- Object.prototype methods
+- Constructor functions
+- Prototypal inheritance
+- Object.create()
+- ES6 classes vs prototypes
+- Inheritance patterns
+
+### 🔄 Asynchronous JavaScript
+
+#### Callbacks
+
+- Callback functions
+- Callback hell
+- Error handling in callbacks
+- Inversion of control
+
+#### Promises
+
+- Promise creation and states
+- Promise chaining
+- Promise.all(), allSettled(), any(), race()
+- Error handling with .catch()
+- Promise.resolve() and Promise.reject()
+
+#### Async/Await
+
+- async function syntax
+- await keyword usage
+- Error handling with try/catch
+- Parallel vs sequential execution
+- Top-level await
+
+### 🔄 Event Loop
+
+- Call stack
 - Web APIs
-- setTimeout, setInterval
-- Higher Order Functions
-- Module Pattern
-- [Important Design Patterns (JS & React)](https://javascriptpatterns.vercel.app/patterns)
+- Callback queue (task queue)
+- Microtask queue
+- Event loop mechanism
+- Macrotasks vs microtasks
+- setTimeout vs setImmediate
+
+### 📊 Array Methods
+
+- map(), filter(), reduce()
+- forEach(), find(), findIndex()
+- some(), every()
+- sort(), reverse()
+- splice(), slice()
+- push(), pop(), shift(), unshift()
+- includes(), indexOf()
+- Array.from(), Array.of()
+
+### 📦 Object Methods
+
+- Object.keys(), values(), entries()
+- Object.assign()
+- Object.create()
+- Object.freeze(), seal()
+- Object.hasOwnProperty()
+- Object.defineProperty()
+- JSON.stringify(), parse()
+
+### 🎪 Advanced JavaScript Concepts
+
+#### Memory Management
+
+- Garbage collection
+- Memory leaks
+- Reference counting
+- Mark and sweep algorithm
+- WeakMap and WeakSet
+
+#### Performance Optimization
+
+- Debouncing and throttling
+- Memoization
+- Lazy evaluation
+- Code splitting
+- Tree shaking
+
+#### Design Patterns
+
+- Module pattern
+- Observer pattern
+- Singleton pattern
+- Factory pattern
+- Decorator pattern
+- MVC/MVP/MVVM patterns
+
+### 🌐 DOM and Browser APIs
+
+- DOM manipulation
+- Element selection methods
+- Event handling and delegation
+- Event propagation (bubbling/capturing)
+- preventDefault() and stopPropagation()
+- Custom events
+- Browser Object Model (BOM)
+
+### 📡 Network and Storage
+
+- Fetch API and XMLHttpRequest
+- HTTP methods and status codes
+- Local Storage, Session Storage
+- Cookies and document.cookie
+- IndexedDB basics
+- Cache API
+
+### 🆕 Modern JavaScript (ES6+)
+
+- Template literals
+- Destructuring assignment
+- Default parameters
+- Rest and spread operators
+- Enhanced object literals
+- Modules (import/export)
+- Symbol primitive type
+- Iterators and generators
+- Maps and Sets
+- Proxy and Reflect
+- Optional chaining (?.)
+- Nullish coalescing (??)
 
 ---
 
-## Practice Time!
+## 🏗️ Web Fundamentals
 
-Practice is key! Start with conceptual questions and build basic JS apps.
+### 🌐 HTTP and Networking
 
-Recommended resources:
+- HTTP/HTTPS protocols
+- HTTP methods (GET, POST, PUT, DELETE, PATCH)
+- HTTP status codes (1xx, 2xx, 3xx, 4xx, 5xx)
+- HTTP headers
+- CORS (Cross-Origin Resource Sharing)
+- Preflight requests
+- HTTP/2 and HTTP/3 features
+- WebSockets
 
-- [LeetCode 30 Days of JavaScript](https://leetcode.com/studyplan/30-days-of-javascript/)
-- [BigFrontend JavaScript Problems](https://bigfrontend.dev/)
+### ⚡ Web Performance
 
-Build these small apps to solidify your skills:
+#### Core Web Vitals
 
-- Star Rating
-- Flipkart Search bar with debouncing/throttle
-- Typeahead/autocomplete search bar
-- Todo List with CRUD
-- Carousel, Accordion, Popover components
-- Infinite Scroll
-- Tic-Tac-Toe
-- Image gallery (infinite scroll, pagination, search)
-- Poll widget
-- Event Emitter
-- Kanban board with tasks/subtasks
-- Basic Chat Application
-- Comment Widget (nested replies, delete like Facebook)
-- Food Ordering App (Search, Sort, Filter, Cart)
-- Calculator (basic & advanced operations)
-- Progress Bar (start, pause, restart)
-- Analog Clock
-- Day Calendar
-- Todo List with Drag and Drop
+- Largest Contentful Paint (LCP)
+- First Input Delay (FID) / Interaction to Next Paint (INP)
+- Cumulative Layout Shift (CLS)
+- Time to Interactive (TTI)
+- First Contentful Paint (FCP)
 
----
+#### Performance Optimization
 
-## Web Fundamentals
+- Critical Rendering Path
+- Resource loading optimization
+- Code splitting strategies
+- Lazy loading implementation
+- Image optimization
+- Font loading strategies
+- Bundle size optimization
+- Tree shaking
 
-- Web Performance & Optimization
-  - Lazy Loading
-  - Code splitting
-  - Caching services
-  - Asset optimization
-  - Fast rendering & proper bundling
-- Web Sockets
-- Long polling & Short polling
+#### Caching Strategies
+
+- Browser caching
+- HTTP cache headers
+- Service Worker caching
+- CDN strategies
+- Application cache patterns
+
+### 🔌 Real-time Communication
+
+- WebSockets vs Server-Sent Events
+- Long polling vs short polling
+- WebRTC basics
 - Webhooks
-- SEO Basics
-- Web Vitals
-  - Largest Contentful Paint (LCP)
-  - First Input Delay (FID)
-  - Cumulative Layout Shift (CLS)
-- Storing Data in Browser
-  - LocalStorage, SessionStorage, Cookies
-- Network requests
-- DOM manipulation & security
-- Security vulnerabilities
-  - SSL Pinning
-  - Cross-site scripting (XSS)
-  - Cross-site Request Forgery (CSRF)
-  - SQL Injection
-- Design Patterns
-- Cache strategies
-  - Simple Cache
-  - Mapped Cache
+- Push notifications
+
+### 💾 Browser Storage
+
+- localStorage vs sessionStorage
+- Cookie attributes and security
+- IndexedDB for complex data
+- Cache API
+- WebSQL (deprecated)
+- Storage quotas and management
+
+### 🎯 SEO and Accessibility
+
+- Semantic HTML for SEO
+- Meta tags optimization
+- Structured data (JSON-LD)
+- Open Graph and Twitter Cards
+- Accessibility best practices
+- WCAG compliance levels
+- Screen reader testing
 
 ---
 
-## TypeScript
+## 🔷 TypeScript Topics
 
-- Static Typing
-- Type Annotations
-- Interfaces
-- Classes & Inheritance
-- Access Modifiers
-- Generics
-- Union & Intersection Types
-- Enums
-- Tuple Types
-- Type Guards
+### 🎯 TypeScript Fundamentals
+
+- TypeScript vs JavaScript
+- TypeScript compilation process
+- tsconfig.json configuration
+- Type annotations
+- Type inference
+- Strict mode settings
+
+### 📊 Type System
+
+#### Basic Types
+
+- Primitive types
+- Array and tuple types
+- Object types
+- Function types
+- Union and intersection types
+- Literal types
+- never and unknown types
+
+#### Advanced Types
+
+- Generic types
+- Conditional types
+- Mapped types
+- Template literal types
+- Recursive types
+- Discriminated unions
+
+### 🏗️ Interfaces and Classes
+
+- Interface declarations
+- Optional and readonly properties
+- Index signatures
+- Extending interfaces
+- Interface vs type aliases
+- Class declarations
+- Access modifiers (public, private, protected)
+- Abstract classes
+- Inheritance and polymorphism
+
+### 🎭 Advanced TypeScript Features
+
+- Type guards
+- Assertion functions
+- Module augmentation
+- Declaration merging
+- Namespace usage
 - Decorators
-- Optional Chaining & Nullish Coalescing
-- Mapped Types
-- Utility Types
+- Mixins
+
+### 🛠️ Utility Types
+
+- Partial<T>
+- Required<T>
+- Readonly<T>
+- Pick<T, K>
+- Omit<T, K>
+- Exclude<T, U>
+- Extract<T, U>
+- Record<K, T>
+- ReturnType<T>
+- Parameters<T>
+
+### ⚛️ TypeScript with React
+
+- React component typing
+- Props and state typing
+- Event handler typing
+- Ref typing
+- Context API typing
+- Higher-Order Component typing
+- Custom hooks typing
 
 ---
 
-## Frontend System Design
+## ⚛️ React Topics
 
-Resources to master system design for frontend:
+### 🎣 React Hooks
 
-- [Front-End Engineer YouTube Channel](https://www.youtube.com/watch?v=5vyKhm2NTfw&list=PLI9W87-Dqn7j_x6QtR6sUjycJR7nQLBqT)
-- [Chirag Goel YouTube Channel](https://www.youtube.com/watch?v=sV_4pOGosnU&list=PL4CFloQ4GGWICE0Tz6iXKfN3XWkXRlboU)
-- [BigFrontend Design Questions](https://bigfrontend.dev/design)
-- [GreatFrontend Design Questions](https://www.greatfrontend.com/system-design)
+#### Built-in Hooks
 
-### System Design Answer Framework
+- useState and state management
+- useEffect and lifecycle
+- useContext for state sharing
+- useReducer for complex state
+- useCallback for function memoization
+- useMemo for value memoization
+- useRef for DOM access
+- useImperativeHandle
+- useLayoutEffect vs useEffect
+- useDebugValue for custom hooks
 
-There is no single “best” solution; interviewers expect structured answers and creativity.
+#### React 18+ Hooks
 
----
+- useId for unique identifiers
+- useDeferredValue
+- useTransition
+- useSyncExternalStore
 
-## Important React Topics
+#### React 19 Hooks
 
-- Hooks: useState, useEffect, useCallback, useMemo, useRef, useReducer, useContext, useId, useLayoutEffect (prefer useEffect), useFormStatus, useFormState, useOptimistic, Custom Hooks
-- React internals:
-  - Reconciliation & Diffing Algorithm
-  - JSX compilation
-  - React keys (avoid using index as key if list changes)
-  - Virtual DOM
-  - React Fiber
-- React Lifecycle (Class & Functional)
-- Hooks vs Class Components
-- Automatic Batching
-- Async State Updates
-- State Management (Context API, Redux)
-- React with TypeScript
-- Props & Prop Drilling
-- Class vs Functional Components
-- Webpack basics
-- Sharing data between siblings via parent callbacks
-- Default and Named Exports/Imports
-- Performance Optimization:
-  - Image optimization and caching
-  - Memoization with useCallback and useMemo
-  - Lazy loading images and code splitting
-  - Localizing state
-- React Design Patterns:
-  - Container/Presentational
-  - Higher-Order Components
-  - Render Props
-  - Hooks Pattern
-  - Provider Pattern
-  - Compound Pattern
-- Redux principles:
-  - Single source of truth
-  - State is read-only
-  - Changes via pure reducers
-- Architecture:
-  - Monolithic
-  - Micro Frontend
-  - Monorepo
-- Unit Testing
-- Routing (dynamic, secure, public)
-- Next.js basics (SSR, CSR)
+- useFormStatus
+- useFormState
+- useOptimistic
+- use() hook
 
-### New React 19 Topics
+### 🧠 React Internals
+
+- Virtual DOM concept
+- Reconciliation algorithm
+- React Fiber architecture
+- Diffing algorithm
+- Keys and their importance
+- React elements vs components
+- JSX compilation process
+
+### 🔄 Component Lifecycle
+
+- Class component lifecycle methods
+- Functional component lifecycle with hooks
+- Mount, update, unmount phases
+- Error boundaries
+- Component lifecycle optimization
+
+### 🎨 Component Patterns
+
+- Functional vs class components
+- Controlled vs uncontrolled components
+- Higher-Order Components (HOCs)
+- Render props pattern
+- Compound components
+- Provider pattern
+- Container/Presentational pattern
+
+### 🗂️ State Management
+
+#### React Built-in
+
+- useState for local state
+- useReducer for complex state
+- Context API for global state
+- Prop drilling solutions
+
+#### External Libraries
+
+- Redux principles
+- Redux Toolkit (RTK)
+- Zustand
+- Recoil
+- MobX basics
+
+### ⚡ Performance Optimization
+
+- React.memo for component memoization
+- useMemo and useCallback optimization
+- Code splitting with React.lazy
+- Suspense for loading states
+- Profiler for performance monitoring
+- Bundle size optimization
+- Re-render optimization
+
+### 🛣️ Routing
+
+- React Router setup
+- Route configuration
+- Dynamic routing
+- Protected routes
+- Route guards
+- Programmatic navigation
+- Nested routing
+
+### 📝 Forms in React
+
+- Controlled components
+- Form validation
+- Formik and Yup
+- React Hook Form
+- Custom form hooks
+- File upload handling
+
+### 🧪 Testing React Components
+
+- React Testing Library
+- Jest testing framework
+- Component testing strategies
+- Mocking in tests
+- Testing hooks
+- End-to-end testing with Cypress
+
+### 🆕 React 19 Features
 
 - React Compiler
-- Action
 - Server Components
-- `'use server'` and `'use client'`
-- Better SEO
-- New Hooks: useFormStatus, useFormState, useOptimistic
+- Actions and useTransition
+- 'use server' and 'use client' directives
+- Improved hydration
+- Better error handling
 
 ---
 
-## Next.js
+## 🌟 Next.js Topics
 
-- What is Next.js
-- Why use Next.js & features
+### 🏗️ Next.js Fundamentals
+
+- What is Next.js and why use it
+- File-based routing
+- Pages vs App Router
+- Project structure
+- Configuration (next.config.js)
+
+### 📊 Rendering Methods
+
+- Server-Side Rendering (SSR)
+- Static Site Generation (SSG)
+- Incremental Static Regeneration (ISR)
+- Client-Side Rendering (CSR)
+- Hybrid rendering strategies
+
+### 🎯 Data Fetching
+
 - getStaticProps
 - getServerSideProps
-- Difference between getStaticProps & getServerSideProps
+- getStaticPaths
+- API routes
+- SWR for client-side fetching
+- React Query integration
+
+### 🛣️ Routing and Navigation
+
+- Dynamic routes
+- Nested routes
+- Route groups
+- Parallel routes
+- Intercepting routes
+- Middleware
+
+### 🖼️ Built-in Components
+
+- Image component optimization
+- Link component
+- Head component
+- Script component
+- Font optimization
+
+### ⚡ Performance Features
+
+- Automatic code splitting
+- Image optimization
+- Font optimization
+- Bundle analyzer
+- Webpack configuration
+
+### 🔐 Authentication
+
+- NextAuth.js
+- JWT implementation
+- Protected routes
+- Session management
+
+### 🌐 Deployment
+
+- Vercel deployment
+- Static export
+- Docker deployment
+- Environment variables
+- Domain configuration
 
 ---
 
-## Important React Native Topics
+## 📱 React Native Topics
 
-- Hooks
-- React Native threads (Main thread, JS thread)
-- Bridge
-- Interaction Manager
-- Set Native Props
-- React Native Builder Bob (for libraries)
-- Yoga layout engine
-- Performance issues & optimizations
-- Build process
-- React Native internals
-- Optimizing React Native Apps:
-  - Use FlatList/SectionList for large lists
-  - Minimize UI-JS thread interaction
-  - Cache services & images
-  - Use optimized images/SVGs
-  - Memoize expensive calculations with useCallback/useMemo
-  - Minimize re-renders
-  - Optimize state management
+### 🏗️ React Native Architecture
+
+- Bridge architecture
+- JavaScript thread
+- Main thread (UI thread)
+- Native modules
+- Turbo Modules
+- Fabric renderer (New Architecture)
+
+### 🎨 UI and Styling
+
+- Flexbox layout (default)
+- StyleSheet API
+- Platform-specific styling
+- Responsive design
+- Animations (Animated API)
+- Reanimated library
+- Gesture handling
+
+### 📊 Core Components
+
+- View, Text, Image
+- ScrollView vs FlatList
+- TextInput
+- Button and TouchableOpacity
+- Modal
+- StatusBar
+- SafeAreaView
+
+### 📡 Navigation
+
+- React Navigation library
+- Stack Navigator
+- Tab Navigator
+- Drawer Navigator
+- Deep linking
+- Navigation state management
+
+### ⚡ Performance Optimization
+
+- FlatList optimization
+- Image caching
+- Bundle size optimization
+- Memory management
+- Threading considerations
+- Profiling tools
+
+### 🔧 Native Modules
+
+- Creating custom native modules
+- Bridge communication
+- Platform-specific code
+- Third-party library integration
+
+### 🛠️ Development Tools
+
+- Metro bundler
+- Flipper debugging
+- React Developer Tools
+- Performance monitoring
+
+### 📦 State Management
+
+- Redux with React Native
+- Context API usage
+- Async storage
+- Secure storage options
 
 ---
 
-## Testing
+## 🧪 Testing Topics
 
-- Unit Testing
-- End-to-End Testing
-- Component Testing
-- Integration Testing
+### 🎯 Testing Types
+
+- Unit testing
+- Integration testing
+- Component testing
+- End-to-end (E2E) testing
+- Visual regression testing
+- Performance testing
+- Accessibility testing
+
+### 🛠️ Testing Tools and Frameworks
+
+#### JavaScript Testing
+
+- Jest testing framework
+- Vitest (fast alternative to Jest)
+- Mocha and Chai
+- Sinon for mocking
+
+#### React Testing
+
+- React Testing Library
+- Enzyme (legacy)
+- Testing components in isolation
+- Testing custom hooks
+
+#### E2E Testing
+
+- Cypress
+- Playwright
+- Puppeteer
+- WebDriver
+
+### 🎭 Testing Best Practices
+
+- Test-driven development (TDD)
+- Behavior-driven development (BDD)
+- Testing pyramid
+- Mock strategies
+- Test coverage analysis
+- Continuous integration testing
+
+### 🔍 Testing Strategies
+
+- Arrange-Act-Assert pattern
+- Given-When-Then pattern
+- Testing user interactions
+- Testing asynchronous code
+- Snapshot testing
+- Visual regression testing
+
+---
+
+## 🏛️ Frontend System Design Topics
+
+### 📋 System Design Process
+
+- Requirements gathering
+- Functional vs non-functional requirements
+- Constraints identification
+- High-level architecture design
+- Detailed component design
+- Data flow design
+- API design
+
+### 🏗️ Architecture Patterns
+
+- Component-based architecture
+- Micro-frontend architecture
+- Monolithic vs microservices
+- Server-side vs client-side rendering
+- JAMstack architecture
+- Progressive Web Apps (PWA)
+
+### 📊 Common System Design Questions
+
+#### Social Media Apps
+
+- News feed design
+- Real-time messaging
+- Notification system
+- User authentication
+- Content recommendation
+
+#### E-commerce Platforms
+
+- Product catalog
+- Search and filtering
+- Shopping cart
+- Payment processing
+- Order management
+- Inventory management
+
+#### Media Streaming
+
+- Video player design
+- Content delivery network
+- Adaptive bitrate streaming
+- Offline viewing
+- Recommendation engine
+
+### 🎯 Scalability Considerations
+
+- Load balancing strategies
+- Caching layers
+- Database design
+- CDN implementation
+- Performance monitoring
+- Error handling and logging
+
+---
+
+## 🔧 Development Tools & Build Process
+
+### 📦 Package Managers
+
+- npm fundamentals
+- Yarn package manager
+- pnpm efficiency
+- Package.json configuration
+- Semantic versioning
+- Lock files importance
+- Monorepo management
+
+### 🏗️ Build Tools
+
+- Webpack configuration
+- Vite build tool
+- Parcel bundler
+- Rollup for libraries
+- esbuild performance
+- Snowpack development
+
+### 🔄 Task Runners
+
+- npm scripts
+- Gulp automation
+- Grunt task runner
+- Makefile usage
+
+### 🎨 Code Quality Tools
+
+- ESLint configuration
+- Prettier formatting
+- Husky git hooks
+- lint-staged
+- Commitizen
+- Standard JS
+
+### 🌿 Version Control
+
+- Git fundamentals
+- Branching strategies
+- Merge vs rebase
+- Git hooks
+- Pull request workflow
+- Conventional commits
+
+### 🚀 CI/CD Pipeline
+
+- GitHub Actions
+- GitLab CI
+- Jenkins pipeline
+- Automated testing
+- Deployment strategies
+- Environment management
+
+---
+
+## 🔐 Security Topics
+
+### 🛡️ Common Vulnerabilities
+
+- Cross-Site Scripting (XSS)
+- Cross-Site Request Forgery (CSRF)
+- SQL Injection
+- Clickjacking
+- OWASP Top 10
+- Input validation
+- Output encoding
+
+### 🔒 Security Best Practices
+
+- Content Security Policy (CSP)
+- HTTPS enforcement
+- Secure cookie attributes
+- Authentication strategies
+- Authorization patterns
+- Session management
+- Password security
+
+### 🔐 Authentication & Authorization
+
+- JWT (JSON Web Tokens)
+- OAuth 2.0
+- OpenID Connect
+- Multi-factor authentication
+- Single Sign-On (SSO)
+- Role-based access control
+- Refresh token strategies
+
+---
+
+## ⚡ Performance & Optimization
+
+### 📊 Performance Metrics
+
+- Core Web Vitals
+- Performance monitoring
+- Real User Monitoring (RUM)
+- Synthetic monitoring
+- Performance budgets
+- Lighthouse audits
+
+### 🚀 Optimization Techniques
+
+- Code splitting
+- Tree shaking
+- Lazy loading
+- Image optimization
+- Font optimization
+- Critical CSS
+- Resource hints
+- Service worker caching
+
+### 🔄 Runtime Performance
+
+- JavaScript optimization
+- DOM manipulation efficiency
+- Memory leak prevention
+- Garbage collection
+- Event delegation
+- Debouncing and throttling
+- Animation performance
+
+### 📱 Mobile Performance
+
+- Touch responsiveness
+- Battery efficiency
+- Network optimization
+- Progressive enhancement
+- Offline functionality
+- App-like experiences
+
+---
+
+## 📚 Interview Preparation Checklist
+
+### 🎯 Technical Preparation
+
+- Practice coding problems
+- Build portfolio projects
+- Understand time/space complexity
+- Review data structures and algorithms
+- Practice system design questions
+- Prepare for live coding sessions
+
+### 🎭 Behavioral Preparation
+
+- STAR method examples
+- Project experience stories
+- Collaboration examples
+- Problem-solving scenarios
+- Growth mindset demonstration
+- Questions to ask interviewers
+
+### 📋 Resume & Portfolio
+
+- Technical skills listing
+- Project descriptions
+- GitHub profile optimization
+- Live project demos
+- Code quality examples
+- Performance achievements
+
+---
+
+## 🎯 Final Study Strategy
+
+### 📅 Week-by-Week Plan
+
+- **Week 1-2**: JavaScript fundamentals
+- **Week 3-4**: React and state management
+- **Week 5-6**: Advanced topics and performance
+- **Week 7-8**: System design and mock interviews
+
+### 💪 Practice Recommendations
+
+- Daily coding practice
+- Weekly system design practice
+- Peer code reviews
+- Mock interview sessions
+- Open source contributions
+- Technical blog writing
+
+---
+
+> **📝 Note**: Use this as a comprehensive checklist. Check off topics as you study and master them. Focus on understanding concepts deeply rather than just memorizing facts.
+
+**Good luck with your frontend interview preparation!** 🚀
