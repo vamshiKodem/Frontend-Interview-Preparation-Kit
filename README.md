@@ -253,7 +253,7 @@
 - Type coercion rules
 - Falsy and truthy values
 
-#### Reference Types
+#### Non-primitive Types
 
 - Objects and object manipulation
 - Arrays and array methods
